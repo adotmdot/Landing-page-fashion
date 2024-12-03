@@ -35,7 +35,6 @@
   right: -20px;
   height: 60px;
   width: 150px;
-  background-image: url("assets/header-bg.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -78,8 +77,15 @@ body {
   scroll-behavior: smooth;
 }
 
+.emilys-candy-regular {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Emilys Candy", serif;
   background: rebeccapurple;
 }
 
@@ -158,6 +164,7 @@ header {
 
 .header__content {
   padding: 5rem 2rem;
+  background-color: rebeccapurple;
 }
 
 .header__content h1 {
@@ -186,7 +193,7 @@ header {
 }
 
 .header__content h1 span:nth-child(1)::before {
-  background-color: var(--white);
+  background: none;
 }
 
 .header__content h1 span:nth-child(4)::before {
@@ -208,12 +215,13 @@ header {
 .header__image img {
   max-width: 500px;
   margin-inline: auto;
+  background-color: rebeccapurple;
 }
 
 .banner {
   padding-block: 4rem;
   overflow: hidden;
-  background-color: var(--primary-color);
+  background-color:var(--primary-color);
 }
 
 .banner__container {
