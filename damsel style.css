@@ -158,8 +158,8 @@ header {
   padding: 0;
   max-width: calc(var(--max-width) - 2rem);
   display: grid;
-  background-color: transparent; /* ← Fixes the white background */
-  border-radius: 0; /* Optional: removes round corners */
+  background-color: transparent;
+  border-radius: 0; 
 }
 
 
@@ -216,9 +216,9 @@ header {
 .header__image img {
   max-width: 500px;
   margin-inline: auto;
-  background-color: transparent; /* remove the purple background */
-  border: none;                 /* ensure no border */
-  box-shadow: none;             /* remove any shadow */
+  background-color: transparent; 
+  border: none;                 
+  box-shadow: none;             
 }
 
 .banner {
