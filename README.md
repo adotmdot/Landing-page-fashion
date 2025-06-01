@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  🔗 <a href="https://adotmdot.github.io/Landing-page-fashion/damsel%20index.html" target="_blank">Live Demo</a>
+  🔗 <a href="https://adotmdot.github.io/Landing-page-fashion/main/index.html" target="_blank">Live Demo</a>
 </p>
 
 ---
