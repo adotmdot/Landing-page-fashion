@@ -24,13 +24,13 @@
 
 ```
 Landing-page-fashion/
-├── damsel index.html          # Main HTML file
-├── damsel style.css           # Styling
-├── damsel media.css           # Media queries
-├── main.js                    # JavaScript functionality
+├── main/
+    └── index.html    # Main HTML file
+    ├── style.css     # Styling
+    ├── main.js       # JavaScript functionality
 ├── assets/
-│   └── images/                # All project images
-└── README.md                  # Project documentation
+│   └── images/       # All project images
+└── README.md         # Project documentation
 ```
 
 ---
@@ -50,11 +50,11 @@ Landing-page-fashion/
 To run the project locally:
 
 ```bash
-git clone https://github.com/adotmdot/Landing-page-fashion.git
+git clone https://github.com/adotmdot/Landing-page-fashion/main.git
 cd Landing-page-fashion
 ```
 
-Then open `damsel index.html` in your browser.
+Then open `index.html` in your browser.
 
 ---
 
