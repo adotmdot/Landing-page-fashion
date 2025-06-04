@@ -708,3 +708,17 @@ footer {
     grid-column: 1/3;
   }
 }
+
+@media (max-width: 540px) {
+  header {
+    overflow: visible;
+    padding-inline: 0.5rem;
+  }
+
+  .header__content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: center; 
+  }
+ 
+}
